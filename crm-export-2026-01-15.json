@@ -1,0 +1,97 @@
+{
+  "exportedAt": "2026-01-15T14:36:09.650Z",
+  "contacts": [
+    {
+      "email": "aditi.sharma@example.in",
+      "extractedAt": 1768487722672,
+      "id": "contact_fzjpto",
+      "name": "Aditi Sharma",
+      "owner": "",
+      "phone": "+91 98765 43210",
+      "sourceUrl": "https://avinashvs0052.activehosted.com/app/contacts",
+      "tags": []
+    },
+    {
+      "email": "carlos.ruiz@hola.es",
+      "extractedAt": 1768487722673,
+      "id": "contact_ifk6qp",
+      "name": "Carlos Ruiz",
+      "owner": "",
+      "phone": "+34 91 123 45",
+      "sourceUrl": "https://avinashvs0052.activehosted.com/app/contacts",
+      "tags": []
+    },
+    {
+      "email": "john.smith@example.us",
+      "extractedAt": 1768487722673,
+      "id": "contact_4g4x1r",
+      "name": "John Smith",
+      "owner": "",
+      "phone": "+1 555 019 2834",
+      "sourceUrl": "https://avinashvs0052.activehosted.com/app/contacts",
+      "tags": []
+    },
+    {
+      "email": "mei.ling@asia.test",
+      "extractedAt": 1768487722673,
+      "id": "contact_2urcn7",
+      "name": "Mei Ling",
+      "owner": "",
+      "phone": "+86 138 0013 8000",
+      "sourceUrl": "https://avinashvs0052.activehosted.com/app/contacts",
+      "tags": []
+    },
+    {
+      "email": "pierre.d@france.eu",
+      "extractedAt": 1768487722673,
+      "id": "contact_yrt326",
+      "name": "Pierre Dubois",
+      "owner": "",
+      "phone": "+33 6 12 34",
+      "sourceUrl": "https://avinashvs0052.activehosted.com/app/contacts",
+      "tags": []
+    },
+    {
+      "email": "priya.patel@startup.in",
+      "extractedAt": 1768487722673,
+      "id": "contact_efkaq7",
+      "name": "Priya Patel",
+      "owner": "",
+      "phone": "+91 77777 88888",
+      "sourceUrl": "https://avinashvs0052.activehosted.com/app/contacts",
+      "tags": []
+    },
+    {
+      "email": "rajesh.k@testmail.co.in",
+      "extractedAt": 1768487722673,
+      "id": "contact_cped96",
+      "name": "Rajesh Kumar",
+      "owner": "",
+      "phone": "+91 88888 11223",
+      "sourceUrl": "https://avinashvs0052.activehosted.com/app/contacts",
+      "tags": []
+    },
+    {
+      "email": "s.jenkins@creative.co.uk",
+      "extractedAt": 1768487722673,
+      "id": "contact_mxhkgs",
+      "name": "Sarah Jenkins",
+      "owner": "",
+      "phone": "+44 20 7946 0958",
+      "sourceUrl": "https://avinashvs0052.activehosted.com/app/contacts",
+      "tags": []
+    },
+    {
+      "email": "vikram.s@techindia.test",
+      "extractedAt": 1768487722673,
+      "id": "contact_m4grw4",
+      "name": "Vikram Singh",
+      "owner": "",
+      "phone": "+91 98980 12345",
+      "sourceUrl": "https://avinashvs0052.activehosted.com/app/contacts",
+      "tags": []
+    }
+  ],
+  "deals": [],
+  "tasks": []
+}

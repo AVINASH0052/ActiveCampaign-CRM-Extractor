@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #ffffff;
+  color: #0f172a;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-primary-700 active:bg-primary-800 transition-colors duration-150 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply bg-surface-secondary text-text-primary px-4 py-2 rounded-lg font-medium border border-border-light hover:bg-surface-tertiary transition-colors duration-150 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-danger {
+    @apply bg-status-error text-white px-3 py-1.5 rounded-md text-sm font-medium hover:bg-red-700 active:bg-red-800 transition-colors duration-150 ease-in-out;
+  }
+
+  .card-container {
+    @apply bg-surface-primary border border-border-light rounded-lg shadow-card p-4 transition-shadow duration-150 hover:shadow-elevated;
+  }
+
+  .input-field {
+    @apply w-full px-3 py-2 border border-border-light rounded-lg bg-surface-primary text-text-primary placeholder-text-muted focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-150;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .badge-primary {
+    @apply badge bg-primary-100 text-primary-700;
+  }
+
+  .badge-success {
+    @apply badge bg-status-successLight text-status-success;
+  }
+
+  .badge-warning {
+    @apply badge bg-status-warningLight text-status-warning;
+  }
+
+  .badge-error {
+    @apply badge bg-status-errorLight text-status-error;
+  }
+
+  .tab-button {
+    @apply px-4 py-2 text-sm font-medium rounded-lg transition-colors duration-150;
+  }
+
+  .tab-button-active {
+    @apply tab-button bg-primary-600 text-white;
+  }
+
+  .tab-button-inactive {
+    @apply tab-button text-text-secondary hover:bg-surface-tertiary hover:text-text-primary;
+  }
+}
+
+@layer utilities {
+  .text-truncate {
+    @apply overflow-hidden text-ellipsis whitespace-nowrap;
+  }
+
+  .animate-spin-slow {
+    animation: spin 1.5s linear infinite;
+  }
+}
